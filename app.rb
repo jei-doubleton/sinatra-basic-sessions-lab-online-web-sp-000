@@ -5,4 +5,8 @@ class App < Sinatra::Base
     set :sessions, true
     set :session_secret, SecureRandom.hex(64)
   end
+
+  get '/' do
+    
+  end
 end
